@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
     const { assistantId, userId, sessionMeta } = body || {};
 
-    const r = await fetch('https://api.vapi.ai/v1/sessions', {
+    const r = await fetch('https://api.vapi.ai/session', {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiKey}`,
