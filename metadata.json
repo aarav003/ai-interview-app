@@ -1,0 +1,8 @@
+{
+  "name": "AI Video Interview Agent",
+  "description": "An intelligent AI voice agent that conducts video interviews with candidates. The candidate's camera is on, while the AI agent interacts with a human-like voice to ask questions and assess skills.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
