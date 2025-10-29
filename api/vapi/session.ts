@@ -22,8 +22,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         assistantId,
         userId,
-        sessionMeta,
-        transport: 'webrtc',
+        sessionMeta
       }),
     });
 
